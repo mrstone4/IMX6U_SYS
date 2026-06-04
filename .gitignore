@@ -1,0 +1,44 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+CTestTestfile.cmake
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.a
+*.lib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Runtime data (large files / generated content)
+data/faces/*
+data/images/*
+data/results/*
+data/database/*
+!data/*/.gitkeep
+
+# Models (large binary files, if needed use Git LFS)
+models/*/*
+!models/*/.gitkeep
